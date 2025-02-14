@@ -163,7 +163,6 @@ lending_accumulator_new <= lending_accumulator_old * (1 + max_growth_rate)
 
 The attacker exploited the protocol’s reliance on truncation in integer division and the ability to manipulate `lending_accumulator` via flash loans. By inflating `lending_accumulator` and exploiting rounding discrepancies, they withdrew more assets than deposited. Fixes involve stricter parameter validation, improved rounding logic, and isolating flash loan reserves.
 
----
-```
+
 
 
