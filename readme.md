@@ -166,4 +166,4 @@ The attacker exploited the protocol’s reliance on truncation in integer divisi
 ---
 ```
 
-This is now formatted correctly for Markdown GitHub use.
+
